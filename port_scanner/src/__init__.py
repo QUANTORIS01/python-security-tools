@@ -2,4 +2,4 @@ from src.validator import validate_ip, validate_port_range, validate_timeout, va
 
 from src.scanner import scan_port, scan_range
 
-from src.cli import create_parser, main
+from src.services import detect_service

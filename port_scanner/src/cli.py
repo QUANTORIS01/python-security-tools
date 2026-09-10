@@ -3,7 +3,7 @@ import sys
 import time
 
 from src import (
-    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers,
+    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service
 )
 
 
@@ -50,8 +50,11 @@ def main() -> None:
     elapsed_time = time.perf_counter() - start_time
     print("-" * 40)
     if open_ports:
+        print(f"{'PORT':<10} {'STATUS':<10} {'SERVICE':<20}")
+        print("-" * 40)
         for port in open_ports:
-            print(f"✅ Port {port} is OPEN")
+            service = detect_service(port)
+            print(f"{port:<10} {'OPEN':<10} {service:<20}")
     else:
         print("No open ports found.")
     print("-" * 40)

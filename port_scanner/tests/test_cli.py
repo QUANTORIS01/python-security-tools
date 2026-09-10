@@ -1,6 +1,6 @@
 import pytest
 
-from src import create_parser, main
+from src.cli import create_parser, main
 
 
 def test_create_parser():
@@ -21,10 +21,13 @@ def test_main_with_valid_arguments(monkeypatch, capsys):
     monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000"])
     main()
     captured = capsys.readouterr()
-    assert "Port 22 is OPEN" in captured.out
-    assert "Port 80 is OPEN" in captured.out
-    assert "Port 443 is OPEN" in captured.out
-    assert "Open ports found: 3" in captured.out
+    assert "ssh" in captured.out
+    assert "http" in captured.out
+    assert "https" in captured.out
+
+    assert "22" in captured.out
+    assert "80" in captured.out
+    assert "443" in captured.out
 
 
 def test_main_with_invalid_ip(monkeypatch, capsys):
@@ -61,3 +64,13 @@ def test_main_with_invalid_workers(monkeypatch, capsys):
     captured = capsys.readouterr()
     assert exc_info.value.code == 1
     assert "Workers must be greater than 0" in captured.out
+
+
+def test_main_shows_service_names(monkeypatch, capsys):
+    monkeypatch.setattr("src.cli.scan_range", lambda *args, **kwargs: [80, 443])
+    monkeypatch.setattr("src.cli.detect_service", lambda port: {80: "http", 443: "https"}[port])
+    monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000"])
+    main()
+    captured = capsys.readouterr()
+    assert "http" in captured.out
+    assert "https" in captured.out
