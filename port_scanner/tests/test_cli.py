@@ -91,3 +91,31 @@ def test_main_exports_json(monkeypatch, capsys):
     monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000", "--json", "result.json"])
     main()
     assert exported["filename"] == "result.json"
+
+
+def test_main_exports_csv(monkeypatch):
+    exported = {}
+
+    def fake_scan_range(*args, **kwargs):
+        return [80, 443]
+
+    def fake_export_csv(data, filename):
+        exported["data"] = data
+        exported["filename"] = filename
+
+    monkeypatch.setattr("src.cli.scan_range", fake_scan_range)
+    monkeypatch.setattr("src.cli.export_csv", fake_export_csv)
+    monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000", "--csv", "result.csv"])
+    main()
+    assert exported["filename"] == "result.csv"
+    assert exported["data"]["target"] == "127.0.0.1"
+    assert exported["data"]["open_ports"] == [
+        {
+            "port": 80,
+            "service": "http",
+        },
+        {
+            "port": 443,
+            "service": "https",
+        },
+    ]

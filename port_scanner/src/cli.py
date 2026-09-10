@@ -3,7 +3,8 @@ import sys
 import time
 
 from src import (
-    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service, export_json
+    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service, export_json,
+    export_csv,
 )
 
 
@@ -18,6 +19,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("-t", "--timeout", type=float, default=0.5, help="Connection timeout in seconds (default: 0.5)")
     parser.add_argument("-w", "--workers", type=int, default=100, help="Number of concurrent workers (default: 100)")
     parser.add_argument("--json", dest="json_file", type=str, help="Export results to a JSON file")
+    parser.add_argument("--csv", dest="csv_file", type=str, help="Export results to a CSV file")
     return parser
 
 
@@ -70,6 +72,16 @@ def main() -> None:
         ]}
         export_json(export_data, args.json_file)
         print(f"Results exported to {args.json_file}")
+
+    if args.csv_file:
+        export_data = {"target": args.ip, "start_port": args.start_port, "end_port": args.end_port, "open_ports": [
+            {
+                "port": port,
+                "service": detect_service(port),
+            } for port in open_ports
+        ]}
+        export_csv(export_data, args.csv_file)
+        print(f"Results exported to {args.csv_file}")
 
 
 if __name__ == "__main__":
