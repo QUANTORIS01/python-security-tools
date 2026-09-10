@@ -26,3 +26,17 @@ def validate_port_range(start_port: int, end_port: int) -> bool:
         return False
 
     return True
+
+
+def validate_timeout(timeout: float) -> bool:
+    """
+    Validate connection timeout.
+    """
+    return timeout > 0
+
+
+def validate_workers(workers: int) -> bool:
+    """
+    Validate number of concurrent workers.
+    """
+    return workers > 0
