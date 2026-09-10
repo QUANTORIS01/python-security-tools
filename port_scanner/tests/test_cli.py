@@ -119,3 +119,18 @@ def test_main_exports_csv(monkeypatch):
             "service": "https",
         },
     ]
+
+
+def test_main_creates_log_file(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "10"])
+    monkeypatch.setattr("src.cli.scan_range", lambda *args, **kwargs: [3, 5])
+    main()
+    log_file = tmp_path / "scan.log"
+    assert log_file.exists()
+    content = log_file.read_text(encoding="utf-8")
+    assert "Scan started" in content
+    assert "target=127.0.0.1" in content
+    assert "ports=1-10" in content
+    assert "Scan completed" in content
+    assert "open_ports=2" in content

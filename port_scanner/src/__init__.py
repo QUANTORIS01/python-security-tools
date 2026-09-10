@@ -7,3 +7,5 @@ from src.services import detect_service
 from src.exporter import export_json
 
 from src.csv_exporter import export_csv
+
+from src.logger import setup_logger

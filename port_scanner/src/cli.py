@@ -4,7 +4,7 @@ import time
 
 from src import (
     scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service, export_json,
-    export_csv,
+    export_csv, setup_logger
 )
 
 
@@ -42,6 +42,7 @@ def main() -> None:
     if not validate_workers(args.workers):
         print("❌ Workers must be greater than 0.")
         sys.exit(1)
+    logger = setup_logger("scan.log")
     print()
     print(f"🔍 Scanning {args.ip}")
     print(f"Port range: {args.start_port}-{args.end_port}")
@@ -49,7 +50,9 @@ def main() -> None:
     print(f"Workers: {args.workers}")
     print()
     start_time = time.perf_counter()
+    logger.info("Scan started target=%s ports=%s-%s", args.ip, args.start_port, args.end_port)
     open_ports = scan_range(args.ip, args.start_port, args.end_port, timeout=args.timeout, workers=args.workers)
+    logger.info("Scan completed open_ports=%s", len(open_ports))
     elapsed_time = time.perf_counter() - start_time
     print("-" * 40)
     if open_ports:
