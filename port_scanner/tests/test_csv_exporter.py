@@ -30,10 +30,12 @@ def test_export_csv_content(tmp_path):
             {
                 "port": 80,
                 "service": "http",
+                "banner": "HTTP/1.1 200 OK",
             },
             {
                 "port": 443,
                 "service": "https",
+                "banner": "HTTPS Server",
             },
         ],
     }
@@ -42,7 +44,7 @@ def test_export_csv_content(tmp_path):
     with open(output_file, "r", newline="", encoding="utf-8") as file:
         rows = list(csv.reader(file))
     assert rows == [
-        ["port", "service"],
-        ["80", "http"],
-        ["443", "https"],
+        ["port", "service", "banner"],
+        ["80", "http", "HTTP/1.1 200 OK"],
+        ["443", "https", "HTTPS Server"],
     ]

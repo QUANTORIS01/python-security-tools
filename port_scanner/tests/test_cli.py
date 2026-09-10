@@ -1,6 +1,7 @@
 import pytest
 
 from src.cli import create_parser, main
+from src import ScanResult
 
 
 def test_create_parser():
@@ -67,9 +68,20 @@ def test_main_with_invalid_workers(monkeypatch, capsys):
 
 
 def test_main_shows_service_names(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["port_scanner", "127.0.0.1", "1", "1000"])
     monkeypatch.setattr("src.cli.scan_range", lambda *args, **kwargs: [80, 443])
-    monkeypatch.setattr("src.cli.detect_service", lambda port: {80: "http", 443: "https"}[port])
-    monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000"])
+    monkeypatch.setattr("src.cli.build_scan_results", lambda *args, **kwargs: [
+        ScanResult(
+            port=80,
+            service="http",
+            banner=None,
+        ),
+        ScanResult(
+            port=443,
+            service="https",
+            banner=None,
+        ),
+    ])
     main()
     captured = capsys.readouterr()
     assert "http" in captured.out
@@ -113,10 +125,12 @@ def test_main_exports_csv(monkeypatch):
         {
             "port": 80,
             "service": "http",
+            "banner": None,
         },
         {
             "port": 443,
             "service": "https",
+            "banner": None,
         },
     ]
 

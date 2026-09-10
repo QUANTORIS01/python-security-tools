@@ -7,6 +7,6 @@ def export_csv(data: dict, filename: str) -> None:
     """
     with open(filename, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["port", "service"])
+        writer.writerow(["port", "service", "banner"])
         for item in data["open_ports"]:
-            writer.writerow([item["port"], item["service"]])
+            writer.writerow([item["port"], item["service"], item.get("banner")])
