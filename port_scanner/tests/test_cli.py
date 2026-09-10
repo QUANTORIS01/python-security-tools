@@ -74,3 +74,20 @@ def test_main_shows_service_names(monkeypatch, capsys):
     captured = capsys.readouterr()
     assert "http" in captured.out
     assert "https" in captured.out
+
+
+def test_main_exports_json(monkeypatch, capsys):
+    exported = {}
+
+    def fake_scan_range(*args, **kwargs):
+        return [80, 443]
+
+    def fake_export_json(data, filename):
+        exported["data"] = data
+        exported["filename"] = filename
+
+    monkeypatch.setattr("src.cli.scan_range", fake_scan_range)
+    monkeypatch.setattr("src.cli.export_json", fake_export_json)
+    monkeypatch.setattr("sys.argv", ["cli.py", "127.0.0.1", "1", "1000", "--json", "result.json"])
+    main()
+    assert exported["filename"] == "result.json"

@@ -3,7 +3,7 @@ import sys
 import time
 
 from src import (
-    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service
+    scan_range, validate_ip, validate_port_range, validate_timeout, validate_workers, detect_service, export_json
 )
 
 
@@ -17,6 +17,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("end_port", type=int, help="Ending port number")
     parser.add_argument("-t", "--timeout", type=float, default=0.5, help="Connection timeout in seconds (default: 0.5)")
     parser.add_argument("-w", "--workers", type=int, default=100, help="Number of concurrent workers (default: 100)")
+    parser.add_argument("--json", dest="json_file", type=str, help="Export results to a JSON file")
     return parser
 
 
@@ -60,6 +61,15 @@ def main() -> None:
     print("-" * 40)
     print(f"Scan completed in {elapsed_time:.2f}s")
     print(f"Open ports found: {len(open_ports)}")
+    if args.json_file:
+        export_data = {"target": args.ip, "start_port": args.start_port, "end_port": args.end_port, "open_ports": [
+            {
+                "port": port,
+                "service": detect_service(port),
+            } for port in open_ports
+        ]}
+        export_json(export_data, args.json_file)
+        print(f"Results exported to {args.json_file}")
 
 
 if __name__ == "__main__":
