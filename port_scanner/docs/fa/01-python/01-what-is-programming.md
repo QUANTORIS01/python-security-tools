@@ -334,13 +334,13 @@ Output
 print("Hello")
 ```
 
-↓
+<p align='center'>↓</p>
 
 ```text
 Python
 ```
 
-↓
+<p align='center'>↓</p>
 
 ```text
 Hello
