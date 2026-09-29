@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_logger.py`
 
 # مقدمه
@@ -1063,3 +1065,5 @@ Exporter
 ↓
 Logger
 ```
+
+</div>

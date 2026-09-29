@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # 🎉 پایان پروژه Port Scanner
 
 # تبریک!
@@ -583,3 +585,5 @@ def
 🎉 تبریک!
 
 پروژه Port Scanner با موفقیت به پایان رسید.
+
+</div>

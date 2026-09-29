@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `logger.py`
 
 # مقدمه
@@ -918,3 +920,4 @@ src/banner.py
 • Timeout در Banner Grabbing چگونه کار می‌کند
 </p>
 
+</div>

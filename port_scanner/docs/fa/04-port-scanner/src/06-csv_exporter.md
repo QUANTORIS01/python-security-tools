@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `csv_exporter.py`
 
 # مقدمه
@@ -741,3 +743,4 @@ src/logger.py
 • چگونه رخدادهای اسکن را ذخیره کنیم
 </p>
 
+</div>

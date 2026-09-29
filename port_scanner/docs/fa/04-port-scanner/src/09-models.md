@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `models.py`
 
 # مقدمه
@@ -926,3 +928,4 @@ src/results.py
 • Pipeline طراحی داده در پروژه چگونه کار می‌کند
 </p>
 
+</div>

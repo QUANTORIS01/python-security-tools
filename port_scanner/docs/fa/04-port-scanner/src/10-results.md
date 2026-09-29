@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `results.py`
 
 # مقدمه
@@ -854,3 +856,4 @@ src/formatter.py
 • چرا Formatter یکی از مهم‌ترین بخش‌های تجربه کاربری است
 </p>
 
+</div>

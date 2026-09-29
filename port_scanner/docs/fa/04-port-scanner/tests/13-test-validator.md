@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_validator.py`
 
 # مقدمه
@@ -944,3 +946,5 @@ tests/test_scanner.py
 ✅ چگونه Socket را شبیه‌سازی کنیم <br>
 ✅ تست حرفه‌ای توابع شبکه‌ای چگونه نوشته می‌شود
 </p>
+
+</div>

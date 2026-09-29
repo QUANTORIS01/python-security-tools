@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `scanner.py`
 
 ## مقدمه
@@ -914,3 +916,4 @@ src/services.py
 • چگونه نام سرویس‌ها را تشخیص می‌دهیم
 </p>
 
+</div>

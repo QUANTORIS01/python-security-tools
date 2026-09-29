@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `exporter.py`
 
 
@@ -727,3 +729,4 @@ src/csv_exporter.py
 • چگونه خروجی اسکن را وارد Excel کنیم
 </p>
 
+</div>

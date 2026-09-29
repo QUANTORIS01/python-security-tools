@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_banner.py`
 
 # مقدمه
@@ -940,3 +942,5 @@ tests/test_models.py
 ✅ چگونه مدل‌های داده‌ای را تست کنیم <br>
 ✅ Equality در Dataclass ها چگونه کار می‌کند
 </p>
+
+</div>

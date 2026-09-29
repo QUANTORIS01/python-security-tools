@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_scanner.py`
 
 # مقدمه
@@ -998,3 +1000,5 @@ tests/test_services.py
 ✅ مفهوم Known Values Testing <br>
 ✅ چرا تست سرویس‌های معروف مثل HTTP و SSH مهم است
 </p>
+
+</div>

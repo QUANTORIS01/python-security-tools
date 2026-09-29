@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_results.py`
 
 # مقدمه
@@ -885,3 +887,5 @@ tests/test_formatter.py
 ✅ تست رشته‌های چندخطی <br>
 ✅ چگونه خروجی CLI را اعتبارسنجی کنیم
 </p>
+
+</div>

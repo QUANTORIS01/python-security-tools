@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `validator.py`
 
 ## مقدمه
@@ -664,3 +666,4 @@ src/scanner.py
 • اسکن همزمان پورت‌ها چگونه انجام می‌شود
 </p>
 
+</div>

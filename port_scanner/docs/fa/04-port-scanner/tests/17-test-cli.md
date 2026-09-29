@@ -1,3 +1,5 @@
+<div align='right' dir='rtl'>
+
 # بررسی کامل فایل `test_cli.py`
 
 # مقدمه
@@ -1227,3 +1229,5 @@ tests/test_banner.py
 ✅ تست Timeout <br>
 ✅ تست Service Response
 </p>
+
+</div>
