@@ -1,4 +1,4 @@
-<div align='right' dir='rtl'>
+<div dir='rtl'>
 
 # بررسی کامل فایل `test_cli.py`
 

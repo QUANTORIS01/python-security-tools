@@ -1,4 +1,4 @@
-<div align='right' dir='rtl'>
+<div dir='rtl'>
 
 # 🎉 پایان پروژه Port Scanner
 
