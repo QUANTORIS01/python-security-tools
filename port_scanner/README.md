@@ -1,3 +1,5 @@
+[🇮🇷 فارسی](./README.fa.md)
+
 # TCP Port Scanner
 
 A lightweight TCP port scanner written in Python, designed for learning, experimentation, and practical security automation.
@@ -5,6 +7,22 @@ A lightweight TCP port scanner written in Python, designed for learning, experim
 The project focuses on clean Python architecture, testability, structured scan results, service detection, banner grabbing, logging, and JSON/CSV export.
 
 > **Disclaimer:** Use this tool only against systems you own or have explicit permission to test.
+
+---
+
+## Documentation
+
+This project includes complete bilingual documentation:
+
+- English Documentation
+- Persian Documentation
+
+The Persian documentation contains a full educational track covering:
+
+- Python fundamentals
+- Networking fundamentals
+- Cybersecurity fundamentals
+- Line-by-line project analysis
 
 ---
 
@@ -34,8 +52,8 @@ port_scanner/
 ├── requirements.txt
 ├── CHANGELOG.md
 ├── docs/
-│   ├── en.md
-│   └── fa.md
+│   ├── en/
+│   └── fa/
 ├── reports/
 ├── src/
 │   ├── __init__.py
@@ -364,13 +382,13 @@ This project is intentionally built as a learning-oriented security tool rather 
 
 The main goals are:
 
-1. Practice Python networking with `socket`
-2. Understand concurrent execution with `ThreadPoolExecutor`
-3. Build testable modules with clear responsibilities
-4. Work with structured data
-5. Separate application logic from presentation and export
-6. Practice defensive error handling
-7. Maintain an open-source-style development workflow
+1. Build a real-world networking project
+2. Understand how TCP port scanning works
+3. Practice Python socket programming
+4. Learn concurrent execution
+5. Design testable and maintainable software
+6. Apply networking and cybersecurity concepts
+7. Develop production-style project structure
 
 ---
 
@@ -388,6 +406,19 @@ The current implementation has several intentional limitations:
 * No stealth or evasion functionality
 
 These limitations provide clear areas for future development without unnecessarily complicating the current implementation.
+
+---
+
+## Educational Content
+
+In addition to the scanner itself, this project includes a complete Persian learning path:
+
+1. Python Fundamentals
+2. Networking Fundamentals
+3. Cybersecurity Fundamentals
+4. Port Scanner Source Code Analysis
+
+The goal is to help learners understand not only how to use a port scanner, but also how to build one from scratch.
 
 ---
 

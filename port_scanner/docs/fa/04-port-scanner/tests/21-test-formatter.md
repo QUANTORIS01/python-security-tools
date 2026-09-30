@@ -66,12 +66,18 @@ format_scan_results()
 
 را تبدیل می‌کرد به:
 
+</div>
+
+<div dir='ltr'>
+
 ```text
 PORT     STATUS   SERVICE      BANNER
 ------------------------------------------------------
 22       OPEN     ssh          SSH-2.0-TestServer
 80       OPEN     http         Apache/2.4.62
 ```
+
+</div>
 
 ---
 
@@ -186,6 +192,8 @@ ScanResult
 ```
 
 ---
+<div dir='rtl'>
+
 
 # هدف فایل چیست؟
 
@@ -286,6 +294,8 @@ output
 
 چیزی شبیه:
 
+<div dir='ltr'>
+
 ```text
 PORT     STATUS   SERVICE      BANNER
 ------------------------------------------------------
@@ -293,7 +303,11 @@ PORT     STATUS   SERVICE      BANNER
 80       OPEN     http         Apache/2.4.62
 ```
 
+</div>
+
 ---
+
+<div dir='rtl'>
 
 # بررسی Header
 

@@ -1,3 +1,5 @@
+[🇮🇷 فارسی](./README.fa.md)
+
 # Python Security Tools
 
 A curated collection of Python security tools developed for learning, experimentation, automation, and portfolio building.
@@ -26,8 +28,8 @@ python-security-tools/
 │   ├── README.md
 │   ├── requirements.txt
 │   ├── docs/
-│   │   ├── en.md
-│   │   └── fa.md
+│   │   ├── en/
+│   │   └── fa/
 │   └── CHANGELOG.md
 │
 └── ...
@@ -37,10 +39,9 @@ python-security-tools/
 
 ## Available Tools
 
-| Tool          | Description                      | Status      |
-| ------------- | -------------------------------- | ----------- |
-| Port Scanner  | Multithreaded TCP port scanner   | ✅ Completed |
-| *Coming Soon* | Future tools will be listed here | 🚧          |
+| Tool | Description | Status |
+|--------|--------|--------|
+| Port Scanner | Multithreaded TCP port scanner with service detection, banner grabbing, logging, JSON/CSV export and automated tests | ✅ Stable |
 
 ---
 
@@ -86,18 +87,21 @@ The documentation included with each project explains:
 
 ## Roadmap
 
-Planned projects include:
+Current tools:
 
-* Port Scanner
-* Log Analyzer
-* Network Monitor
-* Hash Generator
-* URL Health Checker
-* Packet Analyzer
-* DNS Lookup Tool
-* Service Detector
-* System Information Collector
-* Additional security-focused utilities
+- ✅ Port Scanner
+
+Planned tools:
+
+- DNS Lookup Tool
+- Subdomain Finder
+- Log Analyzer
+- Packet Analyzer
+- Network Monitor
+- Service Detector
+- URL Health Checker
+- System Information Collector
+- Additional security-focused utilities
 
 ---
 
