@@ -65,7 +65,6 @@ port_scanner/
 ├── docs/
 │   ├── en/
 │   └── fa/
-├── reports/
 ├── src/
 │   └── ...
 └── tests/

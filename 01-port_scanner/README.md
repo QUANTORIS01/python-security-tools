@@ -54,7 +54,6 @@ port_scanner/
 ├── docs/
 │   ├── en/
 │   └── fa/
-├── reports/
 ├── src/
 │   ├── __init__.py
 │   ├── scanner.py
