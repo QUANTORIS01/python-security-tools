@@ -5,3 +5,5 @@ from .resolver import lookup_record
 from .models import DNSRecord
 
 from .results import build_dns_results
+
+from .formatter import format_dns_results
