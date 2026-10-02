@@ -9,3 +9,5 @@ from .results import build_dns_results
 from .formatter import format_dns_results
 
 from .exporter import export_json
+
+from .csv_exporter import export_csv
