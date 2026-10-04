@@ -2,6 +2,7 @@ import dns.resolver
 import pytest
 
 from src import lookup_record
+from src.exception import DNSTimeoutError
 
 
 def test_lookup_a_record(monkeypatch):
@@ -34,5 +35,31 @@ def test_lookup_nonexistent_domain(monkeypatch):
         raise dns.resolver.NXDOMAIN
 
     monkeypatch.setattr('dns.resolver.resolve', fake_resolve)
-    with pytest.raises(dns.resolver.NXDOMAIN):
-        lookup_record('does-not-exist.com', 'A')
+    result = lookup_record('does-not-exist.com', 'A')
+    assert result == []
+
+
+def test_lookup_record_handles_no_answer(monkeypatch):
+    def fake_resolve(domain, record_type):
+        raise dns.resolver.NoAnswer
+
+    monkeypatch.setattr(dns.resolver, 'resolve', fake_resolve)
+    assert lookup_record('example.com', 'TXT') == []
+
+
+def test_lookup_record_handles_nxdomain(monkeypatch):
+    def fake_resolve(domain, record_type):
+        raise dns.resolver.NXDOMAIN
+
+    monkeypatch.setattr(dns.resolver, 'resolve', fake_resolve)
+    assert lookup_record('invalid.test', 'A') == []
+
+
+def test_lookup_record_handles_timeout(monkeypatch):
+    def fake_resolve(domain, record_type):
+        raise dns.resolver.LifetimeTimeout
+
+    monkeypatch.setattr(dns.resolver, 'resolve', fake_resolve)
+    with pytest.raises(DNSTimeoutError):
+        lookup_record('google.com', 'MX')
+
