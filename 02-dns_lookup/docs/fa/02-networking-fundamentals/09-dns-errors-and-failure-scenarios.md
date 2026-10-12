@@ -297,8 +297,6 @@ dns.resolver.LifetimeTimeout
 
 ---
 
-این همان خطایی بود که هنگام تست دستی پروژه مشاهده کردی:
-
 ```text
 The resolution lifetime expired
 ```
