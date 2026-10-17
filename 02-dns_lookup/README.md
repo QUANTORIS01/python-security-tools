@@ -1,3 +1,5 @@
+[🇮🇷 فارسی](./README.fa.md)
+
 # DNS Lookup Tool
 
 A lightweight DNS lookup utility written in Python for learning, experimentation, automation, and security-related workflows.
@@ -48,7 +50,7 @@ The Persian learning track includes:
 ## Project Structure
 
 ```text
-dns_lookup/
+02-dns_lookup/
 
 ├── README.md
 ├── CHANGELOG.md
@@ -62,6 +64,7 @@ dns_lookup/
 ├── src/
 │   ├── __init__.py
 │   ├── validator.py
+│   ├── results.py
 │   ├── resolver.py
 │   ├── models.py
 │   ├── results.py
