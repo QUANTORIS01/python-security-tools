@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/04-conditions-and-loops.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۰۴ - شرط‌ها و حلقه‌ها

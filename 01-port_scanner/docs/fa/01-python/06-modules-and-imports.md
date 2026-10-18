@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/06-modules-and-imports.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۶: ماژول‌ها و Import

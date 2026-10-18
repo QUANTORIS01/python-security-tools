@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/08-files-json-csv.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۸: کار با فایل‌ها، JSON و CSV

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/07-exceptions-and-error-handling.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۶: مدیریت خطاها (Exceptions & Error Handling)

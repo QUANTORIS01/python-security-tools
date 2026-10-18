@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/10-python-for-port-scanner.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۱۰: جمع‌بندی پایتون برای ساخت Port Scanner

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/05-functions.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۵: توابع (Functions)

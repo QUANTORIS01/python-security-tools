@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/01-what-is-programming.md)
+
+</div>
+
 <div dir="rtl">
 
 # درس ۱ — برنامه‌نویسی چیست؟

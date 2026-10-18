@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/01-python/03-variables-and-data-types.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۰۳ - متغیرها و انواع داده
