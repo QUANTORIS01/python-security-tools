@@ -54,7 +54,7 @@ python-security-tools/
 
 | ماژول | مسئولیت اصلی |
 |---|---|
-| `__init__.py` | فراهم‌کردن دسترسی عمومی به تعدادی از توابع و کلاس‌های پروژه |
+|<span dir='ltr'> `__init__.py`</span> | فراهم‌کردن دسترسی عمومی به تعدادی از توابع و کلاس‌های پروژه |
 | `cli.py` | دریافت آرگومان‌ها، اجرای جریان اصلی برنامه و مدیریت مسیرهای خطا |
 | `validator.py` |<span dir='rtl'> بررسی اعتبار دامنه، Timeout و نوع رکورد </span>|
 | `resolver.py` |<span dir='rtl'> ارسال درخواست DNS و تبدیل پاسخ‌ها به رشته </span>|
@@ -138,7 +138,7 @@ formatter.py  صادرکردن داده‌ها
 
 این مدل، سه ویژگی اصلی دارد:
 
-<div align='center' dir="rtl">
+<div align='right' dir="rtl">
 
 <span dir='rtl'>• `domain`</span> <br>
 <span dir='rtl'>• `record_type`</span> <br>

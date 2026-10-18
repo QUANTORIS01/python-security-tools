@@ -10,11 +10,11 @@ This repository contains practical Python-based security utilities ranging from 
 
 ## Goals
 
-* Build practical security-related Python tools
-* Learn networking and system programming concepts
-* Maintain clean and well-documented code
-* Create reusable utilities for real-world tasks
-* Provide bilingual educational documentation (English & Persian)
+- Build practical security-related Python tools
+- Learn networking and system programming concepts
+- Maintain clean and well-documented code
+- Create reusable utilities for real-world tasks
+- Provide bilingual educational documentation (English and Persian)
 
 ---
 
@@ -22,8 +22,7 @@ This repository contains practical Python-based security utilities ranging from 
 
 ```text
 python-security-tools/
-│
-├── tool-name/
+├── 01-port_scanner/
 │   ├── source code
 │   ├── README.md
 │   ├── requirements.txt
@@ -31,6 +30,15 @@ python-security-tools/
 │   │   ├── en/
 │   │   └── fa/
 │   └── CHANGELOG.md
+│
+├── 02-dns_lookup/
+│   ├── src/
+│   ├── tests/
+│   ├── README.md
+│   ├── CHANGELOG.md
+│   └── docs/
+│       ├── en/
+│       └── fa/
 │
 └── ...
 ```
@@ -40,8 +48,9 @@ python-security-tools/
 ## Available Tools
 
 | Tool | Description | Status |
-|--------|--------|--------|
-| Port Scanner | Multithreaded TCP port scanner with service detection, banner grabbing, logging, JSON/CSV export and automated tests | ✅ Stable |
+|---|---|---|
+| Port Scanner | Multithreaded TCP port scanner with service detection, banner grabbing, logging, JSON/CSV export, and automated tests | ✅ Stable |
+| DNS Lookup Tool | DNS record lookup for A, AAAA, MX, NS, TXT, and CNAME records, with validation, structured results, logging, JSON/CSV export, and automated tests | ✅ Stable |
 
 ---
 
@@ -49,12 +58,14 @@ python-security-tools/
 
 Each tool contains:
 
-* Project-specific README
-* Installation instructions
-* Usage examples
-* English documentation
-* Persian documentation
-* Changelog and future improvements
+- Project-specific README
+- Installation instructions
+- Usage examples
+- English documentation
+- Persian documentation
+- Changelog and future improvements
+
+Furthermore, all the tools include a learning path—available in both Persian and English—that covers topics such as Python, networking, cybersecurity principles, and step-by-step source code analysis.
 
 ---
 
@@ -62,14 +73,15 @@ Each tool contains:
 
 Projects in this repository may use:
 
-* Python 3
-* Socket Programming
-* Threading / Concurrency
-* File Processing
-* Network Analysis
-* APIs
-* Automation Techniques
-* Security-Oriented Utilities
+- Python 3
+- Socket programming
+- Threading and concurrency
+- File processing
+- Network analysis
+- APIs
+- Automation techniques
+- Security-oriented utilities
+- Automated testing with pytest
 
 ---
 
@@ -77,23 +89,23 @@ Projects in this repository may use:
 
 The documentation included with each project explains:
 
-* Design decisions
-* Implementation details
-* Code walkthroughs
-* Future improvement ideas
-* Common pitfalls and best practices
+- Design decisions
+- Implementation details
+- Code walkthroughs
+- Future improvement ideas
+- Common pitfalls and best practices
 
 ---
 
 ## Roadmap
 
-Current tools:
+### Current Tools
 
 - ✅ Port Scanner
+- ✅ DNS Lookup Tool
 
-Planned tools:
+### Planned Tools
 
-- DNS Lookup Tool
 - Subdomain Finder
 - Log Analyzer
 - Packet Analyzer
