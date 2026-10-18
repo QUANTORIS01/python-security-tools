@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/10-networking-summary.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۱۰: جمع‌بندی کامل شبکه برای ورود به امنیت سایبری

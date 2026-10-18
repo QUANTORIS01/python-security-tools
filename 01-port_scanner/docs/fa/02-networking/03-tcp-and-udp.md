@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/03-tcp-and-udp.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۳: TCP و UDP چیستند؟

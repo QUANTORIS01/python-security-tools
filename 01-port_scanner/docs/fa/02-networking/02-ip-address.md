@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/02-ip-address.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۲: آدرس IP چیست؟

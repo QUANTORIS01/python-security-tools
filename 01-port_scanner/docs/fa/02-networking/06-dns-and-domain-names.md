@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/06-dns-and-domain-names.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۶: DNS و نام دامنه

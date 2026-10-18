@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/07-packets-and-protocols.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۷: Packet و Protocol چیستند؟

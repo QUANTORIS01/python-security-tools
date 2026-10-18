@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/05-client-server-model.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۵: مدل Client و Server چیست؟

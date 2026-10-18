@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/08-osi-model.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۸: مدل OSI — نقشه راه تمام شبکه‌ها

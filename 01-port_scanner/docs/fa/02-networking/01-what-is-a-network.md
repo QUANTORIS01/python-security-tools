@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/01-what-is-a-network.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۱: شبکه چیست؟

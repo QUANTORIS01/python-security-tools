@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/04-ports-and-services.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۴: پورت (Port) چیست؟

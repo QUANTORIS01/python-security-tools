@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/02-networking/09-how-port-scanners-work.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۹: پورت اسکنرها واقعاً چگونه کار می‌کنند؟
