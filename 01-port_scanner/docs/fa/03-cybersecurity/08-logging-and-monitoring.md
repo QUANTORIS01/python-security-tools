@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/08-logging-and-monitoring.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 ## جلسه هشتم: لاگ‌برداری (Logging) و مانیتورینگ (Monitoring)

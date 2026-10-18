@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/04-security-lifecycle.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۴: چرخه عمر امنیت (Security Lifecycle)

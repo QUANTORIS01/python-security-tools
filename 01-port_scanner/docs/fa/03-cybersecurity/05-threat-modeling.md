@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/05-threat-modeling.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 

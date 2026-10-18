@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/03-cybersecurity-threats-and-attacks.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۳: تهدیدها، آسیب‌پذیری‌ها و حملات

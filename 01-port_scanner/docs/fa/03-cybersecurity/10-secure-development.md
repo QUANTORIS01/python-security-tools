@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/10-secure-development.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 ## جلسه دهم: توسعه امن نرم‌افزار (Secure Development)

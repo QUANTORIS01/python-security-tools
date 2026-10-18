@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/09-defense-in-depth.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 ## جلسه نهم: دفاع چندلایه (Defense in Depth)

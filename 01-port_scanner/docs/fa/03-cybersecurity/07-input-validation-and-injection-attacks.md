@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/07-input-validation-and-injection-attacks.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 ## جلسه هفتم: اعتبارسنجی ورودی‌ها (Input Validation) و حملات Injection

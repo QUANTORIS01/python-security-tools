@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/02-who-is-a-hacker.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۲: هکر کیست؟

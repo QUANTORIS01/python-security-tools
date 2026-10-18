@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/06-authentication-and-authorization.md)
+
+</div>
+
 <div dir="rtl" align="right">
 
 ## جلسه ششم: احراز هویت (Authentication) و مجوزدهی (Authorization)

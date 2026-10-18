@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/03-cybersecurity/01-what-is-cybersecurity.md)
+
+</div>
+
 <div dir="rtl">
 
 # جلسه ۱: امنیت سایبری چیست؟
