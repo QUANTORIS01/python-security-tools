@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/10-object-oriented-programming(OOP).md)
+
+</div>
+
 # درس 10: برنامه‌نویسی شی‌گرا (Object-Oriented Programming)
 
 ## مقدمه

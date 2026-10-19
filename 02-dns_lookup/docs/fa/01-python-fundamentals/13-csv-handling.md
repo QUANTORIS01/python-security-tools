@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/13-csv-handling.md)
+
+</div>
+
 # درس ۱۳: CSV Handling در Python
 
 ## مقدمه

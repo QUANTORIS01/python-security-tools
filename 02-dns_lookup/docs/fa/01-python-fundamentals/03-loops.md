@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/03-loops.md)
+
+</div>
+
 # درس ۳: حلقه‌ها (Loops) در پایتون
 
 ## مقدمه

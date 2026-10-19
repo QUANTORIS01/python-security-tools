@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/07-dataclasses.md)
+
+</div>
+
 # درس ۷: Dataclass در پایتون
 
 ## مقدمه

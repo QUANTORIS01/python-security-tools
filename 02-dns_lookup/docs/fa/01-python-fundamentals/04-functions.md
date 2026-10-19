@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/04-functions.md)
+
+</div>
+
 # درس ۴: توابع (Functions) در پایتون
 
 ## مقدمه

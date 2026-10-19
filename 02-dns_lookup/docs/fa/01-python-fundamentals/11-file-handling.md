@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/11-file-handling.md)
+
+</div>
+
 # درس ۱۱: File Handling در Python
 
 ## مقدمه

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/06-regular-expressions.md)
+
+</div>
+
 # درس ۶: عبارات باقاعده (Regular Expressions یا Regex)
 
 ## مقدمه

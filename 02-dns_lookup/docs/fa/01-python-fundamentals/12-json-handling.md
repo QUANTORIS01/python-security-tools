@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/12-json-handling.md)
+
+</div>
+
 # درس ۱۲: JSON Handling در Python
 
 ## مقدمه

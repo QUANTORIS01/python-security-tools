@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/05-modules-and-imports.md)
+
+</div>
+
 # درس ۵: ماژول‌ها (Modules) و Import در پایتون
 
 ## مقدمه

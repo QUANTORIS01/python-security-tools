@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/09-working-with-argparse-and-getting-command-line-input.md)
+
+</div>
+
 # درس ۹: کار با argparse و دریافت ورودی از خط فرمان
 
 ## هدف درس

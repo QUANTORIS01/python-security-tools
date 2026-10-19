@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/02-conditions.md)
+
+</div>
+
 # درس ۲: شرط‌ها و تصمیم‌گیری در پایتون
 
 ## مقدمه

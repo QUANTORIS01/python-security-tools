@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/01-variables-and-data-types.md)
+
+</div>
+
 # درس ۱: متغیرها و انواع داده در پایتون
 
 ## مقدمه

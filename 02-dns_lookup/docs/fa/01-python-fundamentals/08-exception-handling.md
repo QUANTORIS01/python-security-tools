@@ -1,5 +1,11 @@
 <div align='right'>
 
+[🇬🇧 English](/02-dns_lookup/docs/en/01-python-fundamentals/08-exception-handling.md)
+
+</div>
+
+<div align='right'>
+
 # <span dir='rtl'>Exception Handling در پایتون</span>
 
 ## <span dir='rtl'>Exception چیست؟</span>
