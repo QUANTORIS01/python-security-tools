@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/03-domain-subdomain-and-fqdn.md)
+
+</div>
+
 # درس 3: Domain, Subdomain و FQDN
 
 ## مقدمه

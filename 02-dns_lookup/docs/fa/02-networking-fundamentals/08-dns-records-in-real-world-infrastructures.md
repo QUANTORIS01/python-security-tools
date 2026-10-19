@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/08-dns-records-in-real-world-infrastructures.md)
+
+</div>
+
 # درس 08: DNS Records in Real-World Infrastructure
 
 ## مقدمه

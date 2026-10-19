@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/06-dns-caching-and-ttl.md)
+
+</div>
+
 # درس 6: DNS Caching & TTL
 
 ## مقدمه

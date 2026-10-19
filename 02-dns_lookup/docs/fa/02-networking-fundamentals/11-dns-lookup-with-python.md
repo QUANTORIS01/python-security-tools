@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/11-dns-lookup-with-python.md)
+
+</div>
+
 # درس 11: DNS Lookup with Python
 
 ## مقدمه

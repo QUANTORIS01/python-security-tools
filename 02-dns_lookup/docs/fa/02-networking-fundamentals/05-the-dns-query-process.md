@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/05-the-dns-query-process.md)
+
+</div>
+
 # درس 5: DNS Query Process (فرآیند کامل درخواست DNS)
 
 ## مقدمه

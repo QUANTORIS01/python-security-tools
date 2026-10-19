@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/10-public-dns-providers.md)
+
+</div>
+
 # درس 10: Public DNS Providers
 
 ## مقدمه

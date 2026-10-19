@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/01-how-the-internet-works.md)
+
+</div>
+
 # درس 1: اینترنت واقعاً چگونه کار می‌کند؟
 
 ## مقدمه

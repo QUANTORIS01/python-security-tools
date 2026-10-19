@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/04-dns-records.md)
+
+</div>
+
 # درس 4: DNS Records (رکوردهای DNS)
 
 ## مقدمه

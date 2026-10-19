@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/07-recursive-resolver-vs-authoritative-name-server.md)
+
+</div>
+
 # درس 07: Recursive Resolver vs Authoritative Name Server
 
 ## مقدمه

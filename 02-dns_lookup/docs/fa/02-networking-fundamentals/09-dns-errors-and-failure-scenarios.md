@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/09-dns-errors-and-failure-scenarios.md)
+
+</div>
+
 # درس 09: DNS Errors and Failure Scenarios
 
 ## مقدمه

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/02-networking-fundamentals/02-introduction-to-ip-addresses-and-ipv4.md)
+
+</div>
+
 # درس 2: آشنایی با IP Address و IPv4
 
 ## مقدمه
