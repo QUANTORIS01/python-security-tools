@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/tests/23-test-logger.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `test_logger.py`

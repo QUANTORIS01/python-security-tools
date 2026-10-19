@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/tests/17-test-cli.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `test_cli.py`

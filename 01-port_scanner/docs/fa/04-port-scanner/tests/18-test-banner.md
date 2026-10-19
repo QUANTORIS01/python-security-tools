@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/tests/18-test-banner.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `test_banner.py`

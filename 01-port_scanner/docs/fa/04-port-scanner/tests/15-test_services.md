@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/tests/15-test_services.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `test_services.py`
