@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/src/01-init.md)
+
+</div>
+
 <div dir="rtl">
 
 # آشنایی با فایل <span dir='ltr'>`__init__.py`</span>

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/src/05-exporter.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `exporter.py`

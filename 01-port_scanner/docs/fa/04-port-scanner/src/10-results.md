@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/src/10-results.md)
+
+</div>
+
 <div dir='rtl'>
 
 # بررسی کامل فایل `results.py`

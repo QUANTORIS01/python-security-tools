@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/01-port_scanner/docs/en/04-port-scanner/00-welcome.md)
+
+</div>
+
 <div dir="rtl">
 
 # فصل چهارم: تشریح کامل پروژه Port Scanner
