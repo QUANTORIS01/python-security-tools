@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/12-test_validator.md)
+
+</div>
+
 # درس دوازدهم: تست خودکار اعتبارسنجی ورودی‌ها با pytest
 
 **کدهای مورد آزمایش:** `src/validator.py`

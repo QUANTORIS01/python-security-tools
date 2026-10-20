@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/20-test_cli.md)
+
+</div>
+
 # درس ۲۰: تست رابط خط فرمان (CLI) با Pytest
 
 ## ۱. هدف درس

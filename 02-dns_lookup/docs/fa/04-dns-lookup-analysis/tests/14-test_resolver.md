@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/14-test_resolver.md)
+
+</div>
+
 # ۱۴. تست‌نویسی برای DNS Resolver در پایتون
 
 ## هدف درس

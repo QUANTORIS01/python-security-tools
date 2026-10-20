@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/13-test_models.md)
+
+</div>
+
 # درس سیزدهم: تست مدل‌های داده و تغییرناپذیری در پایتون
 
 **کد مورد آزمایش:** `src/models.py`

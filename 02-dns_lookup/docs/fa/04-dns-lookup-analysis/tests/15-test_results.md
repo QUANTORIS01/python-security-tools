@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/15-test_results.md)
+
+</div>
+
 # ۱۵. تست‌نویسی برای ساخت نتایج DNS در پایتون
 
 ## هدف درس

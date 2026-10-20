@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/21-conclusion.md)
+
+</div>
+
 # فصل چهارم: جمع‌بندی معماری و تحلیل پروژه DNS Lookup
 
 ## ۱. هدف این درس

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/16-test_formatter.md)
+
+</div>
+
 # ۱۶. تست‌نویسی برای قالب‌بندی خروجی DNS در پایتون
 
 ## هدف درس

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/17-test_exporter.md)
+
+</div>
+
 # ۱۷. تست‌نویسی برای خروجی JSON در پایتون
 
 ## هدف درس

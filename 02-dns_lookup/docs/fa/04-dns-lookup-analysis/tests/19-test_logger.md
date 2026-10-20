@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/19-test_logger.md)
+
+</div>
+
 # ۱۹. تست‌نویسی برای سیستم Logging در پایتون
 
 ## هدف درس

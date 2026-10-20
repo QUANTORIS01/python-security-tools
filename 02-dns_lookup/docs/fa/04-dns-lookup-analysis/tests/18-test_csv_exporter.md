@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/tests/18-test_csv_exporter.md)
+
+</div>
+
 # ۱۸. تست‌نویسی برای خروجی CSV در پایتون
 
 ## هدف درس
