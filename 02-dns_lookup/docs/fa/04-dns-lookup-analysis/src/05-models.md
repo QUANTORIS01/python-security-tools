@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/05-models.md)
+
+</div>
+
 # فصل چهارم: تحلیل کد پروژه DNS Lookup
 
 ## درس ۵: مدل‌سازی داده‌ها با `dataclass`

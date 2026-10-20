@@ -1,3 +1,8 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/01-__init__.md)
+
+</div>
 
 # درس ۱: فایل <span dir='ltr'>`__init__.py`</span> و ساختار پکیج در Python
 

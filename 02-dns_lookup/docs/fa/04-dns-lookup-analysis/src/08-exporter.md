@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/08-exporter.md)
+
+</div>
+
 # فصل چهارم: تحلیل کد پروژه DNS Lookup
 
 ## درس ۸: خروجی گرفتن به فرمت JSON در پایتون

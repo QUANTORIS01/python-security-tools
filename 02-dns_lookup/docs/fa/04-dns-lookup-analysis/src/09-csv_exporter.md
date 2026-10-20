@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/09-csv_exporter.md)
+
+</div>
+
 # درس نهم: خروجی‌گیری CSV در پایتون
 
 **فایل مورد بررسی:** `src/csv_exporter.py`

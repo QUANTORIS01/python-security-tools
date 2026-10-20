@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/03-resolver.md)
+
+</div>
+
 # فصل چهارم: تحلیل کد پروژه DNS Lookup
 
 ## درس ۳: اجرای درخواست DNS و مدیریت خطاها در پایتون

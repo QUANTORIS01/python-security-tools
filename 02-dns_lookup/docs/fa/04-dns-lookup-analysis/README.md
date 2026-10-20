@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/README.md)
+
+</div>
+
 # فصل چهارم: تحلیل کد پروژه DNS Lookup
 
 <div align='right' dir='rtl'>

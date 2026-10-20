@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/11-cli.md)
+
+</div>
+
 # درس یازدهم: طراحی رابط خط فرمان با argparse
 
 **فایل مورد بررسی:** `src/cli.py`

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/04-dns-lookup-analysis/src/10-logger.md)
+
+</div>
+
 # درس دهم: ثبت رویدادها و مدیریت لاگ در پایتون
 
 **فایل مورد بررسی:** `src/logger.py`
