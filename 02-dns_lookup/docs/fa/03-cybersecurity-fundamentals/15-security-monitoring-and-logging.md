@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/15-security-monitoring-and-logging.md)
+
+</div>
+
 # درس ۱۵: پایش امنیتی و ثبت رویدادها
 
 <div align='right' dir='rtl'>

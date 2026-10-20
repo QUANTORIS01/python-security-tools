@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/07-security-controls.md)
+
+</div>
+
 # درس ۷: کنترل‌های امنیتی (Security Controls)
 
 ## ۱. کنترل امنیتی چیست؟

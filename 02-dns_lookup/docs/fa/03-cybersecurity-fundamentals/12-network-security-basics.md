@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/12-network-security-basics.md)
+
+</div>
+
 # درس ۱۲: مبانی امنیت شبکه (Network Security Basics)
 
 ## ۱. مقدمه

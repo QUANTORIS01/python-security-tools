@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/16-secure-development-and-security-assessment-workflow.md)
+
+</div>
+
 # درس ۱۶: توسعه امن و گردش‌کار ارزیابی امنیت
 
 <div align='right' dir='rtl'>

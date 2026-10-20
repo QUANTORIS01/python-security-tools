@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/02-the-cia-triad.md)
+
+</div>
+
 # درس 02: CIA Triad
 
 ## مقدمه

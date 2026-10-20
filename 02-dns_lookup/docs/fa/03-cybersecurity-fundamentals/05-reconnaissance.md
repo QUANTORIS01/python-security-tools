@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/05-reconnaissance.md)
+
+</div>
+
 # درس 05: Reconnaissance
 
 ## مقدمه

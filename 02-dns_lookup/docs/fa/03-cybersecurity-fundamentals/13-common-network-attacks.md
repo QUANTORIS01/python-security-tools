@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/13-common-network-attacks.md)
+
+</div>
+
 # درس ۱۳: حملات رایج شبکه (Common Network Attacks)
 
 ## ۱. مقدمه

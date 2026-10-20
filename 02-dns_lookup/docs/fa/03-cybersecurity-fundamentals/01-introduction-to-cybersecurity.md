@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/01-introduction-to-cybersecurity.md)
+
+</div>
+
 # درس 01: Introduction to Cybersecurity
 
 ## مقدمه

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/03-threats-vulnerabilities-and-risks.md)
+
+</div>
+
 # درس 03: Threats, Vulnerabilities and Risks
 
 ## مقدمه

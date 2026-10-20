@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/09-authentication-and-authorization.md)
+
+</div>
+
 # درس ۹: احراز هویت و مجوزدهی (Authentication & Authorization)
 
 ## ۱. مقدمه

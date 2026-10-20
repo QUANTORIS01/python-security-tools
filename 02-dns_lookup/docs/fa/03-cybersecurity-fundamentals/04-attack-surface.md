@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/04-attack-surface.md)
+
+</div>
+
 # درس 04: Attack Surface
 
 ## مقدمه

@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/08-defense-in-depth.md)
+
+</div>
+
 # درس ۸: دفاع چندلایه (Defense in Depth)
 
 ## ۱. دفاع چندلایه چیست؟

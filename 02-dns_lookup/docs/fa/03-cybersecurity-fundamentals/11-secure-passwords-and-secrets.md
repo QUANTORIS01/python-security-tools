@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/11-secure-passwords-and-secrets.md)
+
+</div>
+
 # درس ۱۱: مدیریت امن رمزهای عبور و اطلاعات محرمانه
 
 <div align='right'>

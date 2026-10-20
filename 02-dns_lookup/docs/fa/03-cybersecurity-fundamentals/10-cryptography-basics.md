@@ -1,3 +1,9 @@
+<div align='right'>
+
+[🇬🇧 English](/02-dns_lookup/docs/en/03-cybersecurity-fundamentals/10-cryptography-basics.md)
+
+</div>
+
 # درس ۱۰: مبانی رمزنگاری (Cryptography Basics)
 
 ## ۱. رمزنگاری چیست؟
